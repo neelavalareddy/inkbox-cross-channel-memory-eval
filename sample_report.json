@@ -1,0 +1,303 @@
+{
+  "agents": {
+    "careful": {
+      "by_channel_pair": {
+        "imessage->phone": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 11,
+            "current_stale": 0,
+            "fact_correct": 11,
+            "fact_probes": 11,
+            "restricted_leaked": 0,
+            "restricted_probes": 11,
+            "unstated_abstained": 11,
+            "unstated_probes": 11
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 33,
+          "recall_accuracy": 1.0
+        },
+        "imessage->slack": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 19,
+            "current_stale": 0,
+            "fact_correct": 19,
+            "fact_probes": 19,
+            "restricted_leaked": 0,
+            "restricted_probes": 19,
+            "unstated_abstained": 19,
+            "unstated_probes": 19
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 57,
+          "recall_accuracy": 1.0
+        },
+        "sms->phone": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 18,
+            "current_stale": 0,
+            "fact_correct": 18,
+            "fact_probes": 18,
+            "restricted_leaked": 0,
+            "restricted_probes": 18,
+            "unstated_abstained": 18,
+            "unstated_probes": 18
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 54,
+          "recall_accuracy": 1.0
+        },
+        "sms->slack": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 12,
+            "current_stale": 0,
+            "fact_correct": 12,
+            "fact_probes": 12,
+            "restricted_leaked": 0,
+            "restricted_probes": 12,
+            "unstated_abstained": 12,
+            "unstated_probes": 12
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 36,
+          "recall_accuracy": 1.0
+        }
+      },
+      "by_type": {
+        "sales": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 20,
+            "current_stale": 0,
+            "fact_correct": 20,
+            "fact_probes": 20,
+            "restricted_leaked": 0,
+            "restricted_probes": 20,
+            "unstated_abstained": 20,
+            "unstated_probes": 20
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 60,
+          "recall_accuracy": 1.0
+        },
+        "scheduling": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 20,
+            "current_stale": 0,
+            "fact_correct": 20,
+            "fact_probes": 20,
+            "restricted_leaked": 0,
+            "restricted_probes": 20,
+            "unstated_abstained": 20,
+            "unstated_probes": 20
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 60,
+          "recall_accuracy": 1.0
+        },
+        "support": {
+          "abstention_rate": 1.0,
+          "counts": {
+            "current_correct": 20,
+            "current_stale": 0,
+            "fact_correct": 20,
+            "fact_probes": 20,
+            "restricted_leaked": 0,
+            "restricted_probes": 20,
+            "unstated_abstained": 20,
+            "unstated_probes": 20
+          },
+          "cross_channel_leakage_rate": 0.0,
+          "latest_write_wins_rate": 1.0,
+          "probes": 60,
+          "recall_accuracy": 1.0
+        }
+      },
+      "overall": {
+        "abstention_rate": 1.0,
+        "counts": {
+          "current_correct": 60,
+          "current_stale": 0,
+          "fact_correct": 60,
+          "fact_probes": 60,
+          "restricted_leaked": 0,
+          "restricted_probes": 60,
+          "unstated_abstained": 60,
+          "unstated_probes": 60
+        },
+        "cross_channel_leakage_rate": 0.0,
+        "latest_write_wins_rate": 1.0,
+        "probes": 180,
+        "recall_accuracy": 1.0
+      },
+      "verdict_counts": {
+        "abstained": 120,
+        "correct": 60
+      }
+    },
+    "sloppy": {
+      "by_channel_pair": {
+        "imessage->phone": {
+          "abstention_rate": 0.0,
+          "counts": {
+            "current_correct": 4,
+            "current_stale": 7,
+            "fact_correct": 4,
+            "fact_probes": 11,
+            "restricted_leaked": 7,
+            "restricted_probes": 11,
+            "unstated_abstained": 0,
+            "unstated_probes": 11
+          },
+          "cross_channel_leakage_rate": 0.6364,
+          "latest_write_wins_rate": 0.3636,
+          "probes": 33,
+          "recall_accuracy": 0.3636
+        },
+        "imessage->slack": {
+          "abstention_rate": 0.0,
+          "counts": {
+            "current_correct": 6,
+            "current_stale": 13,
+            "fact_correct": 6,
+            "fact_probes": 19,
+            "restricted_leaked": 17,
+            "restricted_probes": 19,
+            "unstated_abstained": 0,
+            "unstated_probes": 19
+          },
+          "cross_channel_leakage_rate": 0.8947,
+          "latest_write_wins_rate": 0.3158,
+          "probes": 57,
+          "recall_accuracy": 0.3158
+        },
+        "sms->phone": {
+          "abstention_rate": 0.3889,
+          "counts": {
+            "current_correct": 7,
+            "current_stale": 11,
+            "fact_correct": 7,
+            "fact_probes": 18,
+            "restricted_leaked": 14,
+            "restricted_probes": 18,
+            "unstated_abstained": 7,
+            "unstated_probes": 18
+          },
+          "cross_channel_leakage_rate": 0.7778,
+          "latest_write_wins_rate": 0.3889,
+          "probes": 54,
+          "recall_accuracy": 0.3889
+        },
+        "sms->slack": {
+          "abstention_rate": 0.25,
+          "counts": {
+            "current_correct": 3,
+            "current_stale": 9,
+            "fact_correct": 3,
+            "fact_probes": 12,
+            "restricted_leaked": 10,
+            "restricted_probes": 12,
+            "unstated_abstained": 3,
+            "unstated_probes": 12
+          },
+          "cross_channel_leakage_rate": 0.8333,
+          "latest_write_wins_rate": 0.25,
+          "probes": 36,
+          "recall_accuracy": 0.25
+        }
+      },
+      "by_type": {
+        "sales": {
+          "abstention_rate": 0.15,
+          "counts": {
+            "current_correct": 7,
+            "current_stale": 13,
+            "fact_correct": 7,
+            "fact_probes": 20,
+            "restricted_leaked": 16,
+            "restricted_probes": 20,
+            "unstated_abstained": 3,
+            "unstated_probes": 20
+          },
+          "cross_channel_leakage_rate": 0.8,
+          "latest_write_wins_rate": 0.35,
+          "probes": 60,
+          "recall_accuracy": 0.35
+        },
+        "scheduling": {
+          "abstention_rate": 0.2,
+          "counts": {
+            "current_correct": 7,
+            "current_stale": 13,
+            "fact_correct": 7,
+            "fact_probes": 20,
+            "restricted_leaked": 16,
+            "restricted_probes": 20,
+            "unstated_abstained": 4,
+            "unstated_probes": 20
+          },
+          "cross_channel_leakage_rate": 0.8,
+          "latest_write_wins_rate": 0.35,
+          "probes": 60,
+          "recall_accuracy": 0.35
+        },
+        "support": {
+          "abstention_rate": 0.15,
+          "counts": {
+            "current_correct": 6,
+            "current_stale": 14,
+            "fact_correct": 6,
+            "fact_probes": 20,
+            "restricted_leaked": 16,
+            "restricted_probes": 20,
+            "unstated_abstained": 3,
+            "unstated_probes": 20
+          },
+          "cross_channel_leakage_rate": 0.8,
+          "latest_write_wins_rate": 0.3,
+          "probes": 60,
+          "recall_accuracy": 0.3
+        }
+      },
+      "overall": {
+        "abstention_rate": 0.1667,
+        "counts": {
+          "current_correct": 20,
+          "current_stale": 40,
+          "fact_correct": 20,
+          "fact_probes": 60,
+          "restricted_leaked": 48,
+          "restricted_probes": 60,
+          "unstated_abstained": 10,
+          "unstated_probes": 60
+        },
+        "cross_channel_leakage_rate": 0.8,
+        "latest_write_wins_rate": 0.3333,
+        "probes": 180,
+        "recall_accuracy": 0.3333
+      },
+      "verdict_counts": {
+        "abstained": 22,
+        "correct": 20,
+        "leaked": 48,
+        "stale": 40,
+        "wrong": 50
+      }
+    }
+  },
+  "notice": "All scenarios are synthetic. Agents are simulated reference agents, not Inkbox.",
+  "probe_count": 180,
+  "scenario_count": 60,
+  "synthetic": true
+}
